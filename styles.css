@@ -1,0 +1,8 @@
+body{
+    display: flex;
+}
+form{
+    display: flex;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}

@@ -1,13 +1,41 @@
 body{
     display: flex;
-}
-form{
-    display: flex;
-    text-transform: uppercase;
-    flex-wrap: wrap;
+    font-family:sans-serif;
+    justify-content: center;
 }
 .container1{
     background-image: url('images/sign-up-form.png');
-    height: 900px;
-    width: 900px;
-}   
+    height: 800px;
+    width: 500px;
+} 
+.container2{
+    background-color:silver;
+}
+form{
+    display: flex;
+    flex-direction: column  ;
+    text-transform: uppercase;
+    justify-content: space-around;
+    background-color: white; 
+    height: 300px;
+    width: 800px;
+}
+input{
+    width: 220px;
+    
+}
+#labels{
+    display: flex;
+    margin-left: 45px;
+    margin-bottom: 40px;
+    margin-right: 250px;
+    justify-content: space-between;
+}
+     
+#formHead{
+    font-size: 24px;
+    text-transform:none;
+    margin-left: 45px ;
+}
+
+ 

@@ -11,6 +11,10 @@ body{
 .container2{
     background-color:silver;
 }
+#introText{
+    margin-left: 45px;
+    margin-top: 140px;
+}
 form{
     display: flex;
     flex-direction: column  ;
@@ -22,7 +26,6 @@ form{
 }
 input{
     width: 220px;
-    
 }
 #labels{
     display: flex;
@@ -31,11 +34,20 @@ input{
     margin-right: 250px;
     justify-content: space-between;
 }
-     
 #formHead{
     font-size: 24px;
     text-transform:none;
     margin-left: 45px ;
+}
+button{
+    font-size: 16px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+#ending{
+    margin-top: 30px;
+    margin-left: 45px;
 }
 
  

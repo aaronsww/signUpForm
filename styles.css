@@ -3,13 +3,15 @@ body{
     font-family:sans-serif;
     justify-content: center;
     margin: 0px;
+     
 }
 .container1{
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: -150px;
-    height: 800px;
-    width: 500px;
+    background-size:cover;
+    background-position: -50px;
+    height: 790px;
+    width: 900px;
+     
 } 
 .container1 div{
     background-color: rgba(0, 0, 0, 0.527);
@@ -24,7 +26,8 @@ body{
 }
 #introText{
     margin-left: 45px;
-    margin-top: 140px;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 form{
     display: flex;
@@ -34,6 +37,7 @@ form{
     background-color: white; 
     height: 300px;
     width: 800px;
+    padding-bottom: 30px;
 }
 input{
     width: 220px;
@@ -41,7 +45,6 @@ input{
 #labels{
     display: flex;
     margin-left: 45px;
-    margin-bottom: 40px;
     margin-right: 250px;
     justify-content: space-between;
 }
@@ -49,6 +52,8 @@ input{
     font-size: 24px;
     text-transform:none;
     margin-left: 45px ;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 button{
     font-size: 16px;

@@ -3,7 +3,6 @@ body{
     font-family:sans-serif;
     justify-content: center;
     margin: 0px;
-     
 }
 .container1{
     background-repeat: no-repeat;
@@ -11,7 +10,6 @@ body{
     background-position: -50px;
     height: 790px;
     width: 900px;
-     
 } 
 .container1 div{
     background-color: rgba(0, 0, 0, 0.527);

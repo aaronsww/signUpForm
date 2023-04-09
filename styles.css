@@ -13,14 +13,17 @@ body{
 } 
 .container1 div{
     background-color: rgba(0, 0, 0, 0.527);
+    padding: 20px;
     color: white;
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 180px;
     font-size: 50px;
+    font-weight: 700;
 }
 .container2{
-    background-color:silver;
+    background-color:#0a1128;
+    color: #fefcfb;
 }
 #introText{
     margin-left: 45px;
@@ -32,7 +35,8 @@ form{
     flex-direction: column  ;
     text-transform: uppercase;
     justify-content: space-around;
-    background-color: white; 
+    background-color: #fefcfb; 
+    color: #0a1128;
     height: 300px;
     width: 800px;
     padding-bottom: 30px;

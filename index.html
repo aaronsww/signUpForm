@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container1" style="background-image: url('images/giphy.gif');">
-      <div class="enter">Entergalactic</div>
+      <div class="enter">Entergalactic 🚀</div>
     </div>
     <div class="container2">
       <div id="introText">
@@ -20,48 +20,51 @@
         </h2>
         <h2>You <i>know</i> you want to.</h2>
       </div>
-      <form action="">
-        <h2 id="formHead">Let's do this!</h2>
-        <div id="labels">
-          <div>
-            <label for="firstName">First Name</label> <br />
-            <input type="text" name="firstName" id="firstName" />
+      <form action="submit">
+        <div class="form">
+          <h2 id="formHead">Let's do this!</h2>
+          <div id="labels">
+            <div>
+              <label for="firstName">First Name</label> <br />
+              <input type="text" name="firstName" id="firstName" required/>
+            </div>
+            <div>
+              <label for="lastName">Last Name</label> <br />
+              <input type="text" name="lastName" id="lastName" required/>
+            </div>
           </div>
-          <div>
-            <label for="lastName">Last Name</label> <br />
-            <input type="text" name="lastName" id="lastName" />
+          <div id="labels">
+            <div>
+              <label for="userEmail">Email</label> <br />
+              <input
+                type="email"
+                id="userEmail"
+                name="email"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="phoneNumber">Phone Number </label> <br />
+              <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" required/>
+            </div>
+          </div>
+          <div id="labels">
+            <div>
+              <label for="userPassword">Password</label> <br />
+              <input type="password" id="userPassword" name="password" required/>
+            </div>
+            <div>
+              <label for="confirmPassword">Confirm Password</label> <br />
+              <input type="password" id="confirmPassword" name="password" required/>
+            </div>
           </div>
         </div>
-        <div id="labels">
-          <div>
-            <label for="userEmail">Email</label> <br />
-            <input
-              type="email"
-              id="userEmail"
-              name="email"
-              placeholder="you@example.com"
-            />
-          </div>
-          <div>
-            <label for="phoneNumber">Phone Number </label> <br />
-            <input type="tel" id="phoneNumber" name="phoneNumber" />
-          </div>
-        </div>
-        <div id="labels">
-          <div>
-            <label for="userPassword">Password</label> <br />
-            <input type="password" id="userPassword" name="password" />
-          </div>
-          <div>
-            <label for="confirmPassword">Confirm Password</label> <br />
-            <input type="password" id="confirmPassword" name="password" />
-          </div>
+        <div id="ending">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="">Log in</a></p>
         </div>
       </form>
-      <div id="ending">
-        <button type="submit">Create Account</button>
-        <p>Already have an account? <a href="">Log in</a></p>
-      </div>
     </div>
   </body>
 </html>

@@ -2,7 +2,7 @@ body{
     display: flex;
     font-family:sans-serif;
     justify-content: center;
-    margin: 0px;
+    margin:  auto;
 }
 .container1{
     background-repeat: no-repeat;
